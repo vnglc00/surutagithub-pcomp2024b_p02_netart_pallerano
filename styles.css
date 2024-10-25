@@ -76,3 +76,45 @@ img.top-right {
   height: auto;
   margin: 10px;
 }
+
+ul {
+    list-style-type: none; /* Elimina las viñetas */
+    margin: 0;
+    padding: 0;
+    position: relative; /* Posición relativa para que los elementos <li> se posicionen dentro de este contenedor */
+}
+
+li {
+    position: absolute;
+    font-size: 1.5em; /* Tamaño de fuente ajustable */
+}
+
+/* Posiciones específicas para cada <li> */
+.li1 {
+    top: 50px;
+    left: 500px;
+}
+
+.li2 {
+    top: 200px;
+    right: 50px;
+}
+
+.li3 {
+    bottom: 300px;
+    left: 200px;
+}
+
+.li4 {
+    bottom: 0;
+    right: 500px;
+}
+
+img.cara {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  width: 300px; 
+  height: auto;
+  margin: 10px;
+}
