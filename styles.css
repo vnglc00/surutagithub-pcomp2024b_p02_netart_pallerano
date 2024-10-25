@@ -63,7 +63,7 @@ img.bottom-left {
   position: absolute;
   bottom: 10px;
   left: 30px;
-  width: 400px; 
+  width: 300px; 
   height: auto;
   margin: 10px;
 }
@@ -117,4 +117,17 @@ img.cara {
   width: 300px; 
   height: auto;
   margin: 10px;
+}
+
+.link-img {
+    position: absolute;
+    top: 50%;  /* Ajusta la posición superior para centrar o colocar donde necesites */
+    left: 45%; /* Ajusta la posición izquierda para centrar o colocar donde necesites */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+}
+
+.dgr {
+    width: 120%; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto;
+    cursor: pointer;
 }
