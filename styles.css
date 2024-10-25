@@ -1,0 +1,56 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden; /* Sin desplazamiento horizontal */
+    text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: gray; /* Cambia de color al pasar el mouse */
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+}
+
+/* Estilos para las imágenes, si las necesitas */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
