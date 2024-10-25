@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    color: gray; /* Cambia de color al pasar el mouse */
+    color: gray; 
 }
 
 img.bottom-left {
@@ -78,18 +78,18 @@ img.top-right {
 }
 
 ul {
-    list-style-type: none; /* Elimina las viñetas */
+    list-style-type: none; 
     margin: 0;
     padding: 0;
-    position: relative; /* Posición relativa para que los elementos <li> se posicionen dentro de este contenedor */
+    position: relative; 
 }
 
 li {
     position: absolute;
-    font-size: 1.5em; /* Tamaño de fuente ajustable */
+    font-size: 1.5em; 
 }
 
-/* Posiciones específicas para cada <li> */
+
 .li1 {
     top: 50px;
     left: 500px;
