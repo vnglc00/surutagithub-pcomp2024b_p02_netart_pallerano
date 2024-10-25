@@ -8,37 +8,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     color: white;
-    overflow-x: hidden; /* Sin desplazamiento horizontal */
+    overflow-x: scroll; 
+    overflow-y: hidden; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: row; 
     text-align: center;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-}
-
-p {
-    margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-  font-style: italic;
-}
-
-a {
-    text-decoration: underline;
-    color: white;
-    cursor: pointer;
-}
-
-a:hover {
-    color: gray; /* Cambia de color al pasar el mouse */
-}
-
 .page {
+    position: relative;
+    min-width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -52,9 +32,47 @@ a:hover {
     max-width: 800px;
 }
 
-/* Estilos para las imágenes, si las necesitas */
-img {
-    max-width: 100%;
-    height: auto;
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+p {
     margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+a {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+a:hover {
+    color: gray; /* Cambia de color al pasar el mouse */
+}
+
+img.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  width: 400px; 
+  height: auto;
+  margin: 10px;
+}
+
+img.top-right {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 220px; 
+  height: auto;
+  margin: 10px;
 }
